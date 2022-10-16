@@ -1,0 +1,65 @@
+
+:root{
+    background-color: #e85b5b;
+}
+img{
+    max-width: 400px ;
+    display: block;
+    margin: auto;/*centra el tamaño de un elemento*/
+    opacity: 1;
+    border-radius: 20px;
+}
+img:hover{
+    opacity: 0.5;
+}
+.class{
+    border:1px solid #A14FDD;
+    /*define el color del borde*/
+    max-width: 600px;
+    /*Definimos un maximo de tamaño del div "600 px"*/
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 50px;
+    box-shadow: 1px 1px 50px #B900FF ;
+}
+h1{
+    color: #663A8F;
+    text-align: center;
+}
+h1::first-letter{
+    font-size: 200%;
+    color:#A14FDD;
+}
+p{
+    text-align: justify;
+    border: 1px  ;
+    padding: 20px;/*un borde para que el texto no quede tan estrecho*/
+}
+h2{
+    text-align: center;
+    color:#663A8F;
+}
+td,th{
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+th{
+    color:#663A8F;
+}
+table{
+    width: 400px;
+    margin:20px auto;
+    border-collapse: collapse;
+    padding:20px ;
+}
+iframe{
+
+    display: block;
+    margin: auto ;
+    border-radius: 30px;
+    padding: 10px;
+}
+li{
+    list-style: "🤖";
+}
